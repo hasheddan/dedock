@@ -1,0 +1,10 @@
+[package]
+name = "dedock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+nix = "0.26"
+libc = "0.2"
